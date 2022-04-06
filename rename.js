@@ -19,12 +19,12 @@ console.log(c);
 // console.log(a);
 //c = (''+a+"").split(',')
 //console.log(c);
-// for (let i = 0; a.length; i++) {
+for (let i = 0; a.length; i++) {
 
-//     var dateType = /(\d{4})([\/-])(\d{1,2})\2(\d{1,2})/;
-//     console.log(a[i]);
-//     var isMatch = dateType.test(a);
-//     if (isMatch) {
-//         console.log(isMatch);
-//     }
-// }
+    var dateType = /(\d{4})([\/-])(\d{1,2})\2(\d{1,2})/;
+    console.log(a[i]);
+    var isMatch = dateType.test(a);
+    if (isMatch) {
+        console.log(isMatch);
+    }
+}
